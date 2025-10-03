@@ -1,6 +1,6 @@
 [versions]
 agp = "8.13.0"
-kit = "6.0.0"
+ffmpegKitFullGpl = "full-gpl-1.1"
 kotlin = "2.2.20"
 coreKtx = "1.17.0"
 junit = "4.13.2"
@@ -14,7 +14,7 @@ workRuntimeKtx = "2.10.5"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
-ffmpeg-kit-full-gpl = { module = "com.moizhassan.ffmpeg:ffmpeg-kit-16kb", version.ref = "kit" }
+ffmpeg-kit-full-gpl = { module = "com.github.kashyaprrathod:ffmpeg-kit-full-gpl", version.ref = "ffmpegKitFullGpl" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
